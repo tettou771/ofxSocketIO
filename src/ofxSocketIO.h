@@ -29,6 +29,7 @@ private :
 
 public :
   string getStatus();
+  string getSessionID();
 
   void setup(std::string& address);
   void setup(std::string& address, std::map<std::string,std::string>& query);
